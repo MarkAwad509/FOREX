@@ -1,0 +1,342 @@
+[
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "value": 0.76
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "value": 0.76
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "value": 0.66
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "value": 14.64
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "value": 1.31
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "value": 1
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "value": 0.87
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "value": 19.23
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "value": 1.31
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "value": 1
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "value": 0.86
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "value": 19.14
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "value": 1.51
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "value": 1.15
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "value": 1.16
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "value": 22.15
+  }
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc1f"
+      },
+      "name": "CAD",
+      "country": "Canada"
+    },
+    "value": 0.068
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc20"
+      },
+      "name": "USD",
+      "country": "United-States"
+    },
+    "value": 0.052
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc21"
+      },
+      "name": "EUR",
+      "country": "Europe"
+    },
+    "value": 0.052
+  },
+  {
+    "source": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc23"
+      },
+      "name": "EGP",
+      "country": "Egypt"
+    },
+    "target": {
+      "_id": {
+        "$oid": "63167b039050136ed956dc22"
+      },
+      "name": "GBP",
+      "country": "England"
+    },
+    "value": 0.045
+  }
+]
