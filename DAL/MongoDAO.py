@@ -29,24 +29,17 @@ class MongoDAO(NoSQLRepositoryDAO, IRateDAO, ICurrencyDAO):
         except pymongo.errors.ConnectionFailure:
             return "Connection failed, check connection parameters"
 
-    def fetchRate(self, source: str, target: str):
+    def fetchRate(self, source: str, target: str) -> Rate:
         return self.db.rate.find_one({"source.name": source, "target.name": target})
 
     def fetchAllRates(self):
-        rates = list[Rate]
-        for r in self.db.rate.find():
-            rates.append(Rate(
-                r.get("source"),
-                r.get("target"),
-                r.get("value")
-            ))
+        rates: list[Rate] = []
+        for r in self.db.rate.find({}):
+            rates.append(Rate(r['source']['name'], r['target']['name'], r['value']))
         return rates
 
     def fetchAllCurrencies(self):
-        currencies = list[Currency]
-        for c in self.db.get_collection("currency").find():
-            currencies.append(Currency(
-                c.get("name"),
-                c.get("country")
-            ))
+        currencies: list[Currency] = []
+        for c in self.db.currency.find({}):
+            currencies.append(Currency(c["name"], c["country"]))
         return currencies

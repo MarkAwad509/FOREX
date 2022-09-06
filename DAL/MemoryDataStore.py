@@ -6,13 +6,23 @@ from py_linq import Enumerable
 
 
 class MemoryDataStore(IRateDAO, ICurrencyDAO):
+    """
+    In memory representation of dataset
+    """
     currencies: list[Currency]
     rates: list[Rate]
 
     def __init__(self):
         self.currencies, self.rates = MemoryDataStore.populate()
 
-    def fetchRate(self, source: str, target: str):
+    def fetchRate(self, source: str, target: str) -> Rate:
+        """
+        finds search corresponding rate from the list of rates
+
+        :param source: the source currency symbol
+        :param target: the source currency symbol
+        :return: Rate object
+        """
         ratesEnum = Enumerable(self.rates)
         return ratesEnum\
             .where(lambda r: r.source.name.lower().__eq__(source))\
@@ -20,13 +30,23 @@ class MemoryDataStore(IRateDAO, ICurrencyDAO):
             .first()
 
     def fetchAllRates(self):
+        """
+        :return: all rates as a list
+        """
         return self.rates
 
     def fetchAllCurrencies(self):
+        """
+        :return: all currencies as a list
+        """
         return self.currencies
 
     @staticmethod
-    def populate():
+    def populate() -> tuple[list[Currency], list[Rate]]:
+        """
+        creates and stores dataset
+        :return: rate and currencies lists
+        """
         currencies = []
         rates = []
 

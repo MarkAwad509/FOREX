@@ -12,6 +12,6 @@ class Rate:
         self.value = value
 
     def __repr__(self) -> str:
-        return f"source: \"{self.source.name}\", " \
-               f"target: \"{self.target.name}\", " \
+        return f"source: \"{self.source}\", " \
+               f"target: \"{self.target}\", " \
                f"value: {self.value}"
